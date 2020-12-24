@@ -25,18 +25,24 @@ namespace WinWebClient
 
         private void NavigationCompletedHandler(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs e)
         {
-            webView21.NavigationStarting -= NavigationStartingHandler;
-            webView21.NavigationCompleted -= NavigationCompletedHandler;
+            if (_hasStartup)
+            {
+                webView21.NavigationStarting -= NavigationStartingHandler;
+                webView21.NavigationCompleted -= NavigationCompletedHandler;
+                pictureBox1.Visible = false;
+            }
         }
 
         private void NavigationStartingHandler(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs e)
         {
-            _hasStartup = true;
+            if (!_hasStartup)
+                _hasStartup = true;
         }
 
         private void Form_Resize(object sender, EventArgs e)
         {
             webView21.Size = this.ClientSize - new System.Drawing.Size(webView21.Location);
+            pictureBox1.Size = this.ClientSize - new System.Drawing.Size(pictureBox1.Location);
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
