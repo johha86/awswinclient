@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsWebView2
+namespace WinWebClient
 {
     partial class About
     {

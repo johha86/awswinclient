@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AWS Desktop Client")]
-[assembly: AssemblyDescription("Simple win desktop app to access the AWS Console.")]
+[assembly: AssemblyTitle("WinWebClient")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Johann H Armenteros jharmenteros86@gmail.com")]
-[assembly: AssemblyProduct("AWSWinClient")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WinWebClient")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8bf46dc2-86df-4795-b86e-b7a0b9a7f049")]
+[assembly: Guid("192a8303-2906-452d-a6d6-80a9c5341bb8")]
 
 // Version information for an assembly consists of the following four values:
 //

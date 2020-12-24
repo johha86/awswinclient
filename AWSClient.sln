@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsWebClient", "WindowsWebClient.csproj", "{8BF46DC2-86DF-4795-B86E-B7A0B9A7F049}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinWebClient", "WinWebClient\WinWebClient.csproj", "{192A8303-2906-452D-A6D6-80A9C5341BB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BF46DC2-86DF-4795-B86E-B7A0B9A7F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BF46DC2-86DF-4795-B86E-B7A0B9A7F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BF46DC2-86DF-4795-B86E-B7A0B9A7F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BF46DC2-86DF-4795-B86E-B7A0B9A7F049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192A8303-2906-452D-A6D6-80A9C5341BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A8303-2906-452D-A6D6-80A9C5341BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A8303-2906-452D-A6D6-80A9C5341BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A8303-2906-452D-A6D6-80A9C5341BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
