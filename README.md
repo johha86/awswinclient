@@ -1,7 +1,7 @@
 # AWS Windows Client
 
 
-[![Build Status](https://dev.azure.com/GuaguancoLab/AWS%20Win%20Client/_apis/build/status/johha86.awswinclient?branchName=master)](https://dev.azure.com/GuaguancoLab/AWS%20Win%20Client/_build/latest?definitionId=5&branchName=master)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ## Introduction
 
